@@ -1,0 +1,21 @@
+
+POST http://localhost:9090/cars/car
+
+POST http://localhost:9090/models/model
+
+POST http://localhost:9090/fuel-types/fuel-type
+
+POST http://localhost:9090/transmissions/transmission
+
+POST http://localhost:9090/brands/brand
+
+
+PUT http://localhost:9090/cars/2
+
+
+DELETE http://localhost:9090/cars/1
+
+
+GET http://localhost:9090/cars/all
+
+GET http://localhost:9090/cars/search?brand=BMW&fuel=GAS

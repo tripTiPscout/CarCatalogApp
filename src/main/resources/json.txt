@@ -1,0 +1,31 @@
+{
+    "vinNumber": "XXXXXXXXXXXX",
+    "model": {
+        "name": "Diablo",
+	"brand": {
+        "name": "Lamborghini"
+    	}
+    },
+    "price": 160000.00,
+    "regDate": "12.06.2020",
+    "transmission": {
+        "name": "AUTOMATIC"
+        },
+    "fuelType": {
+        "name": "GASOLINE"
+        },
+    "remarks": "YELLOW METALLIC"
+}
+
+
+{
+    "name": "ModelName",
+    "brand": {
+        "name": "BrandName"
+    }
+}
+
+
+{
+    "name": "VOLVO"
+}

@@ -4,6 +4,7 @@ import com.compactsmartsolutions.carcatalog.entities.fueltype.FuelType;
 import com.compactsmartsolutions.carcatalog.entities.model.Model;
 import com.compactsmartsolutions.carcatalog.entities.transmission.Transmission;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -49,6 +50,7 @@ public class Car {
     private BigDecimal price;
 
     @NonNull
+    @JsonFormat(pattern="dd.MM.yyyy")
     @Column(name = "reg_date")
     private LocalDate regDate;
 
