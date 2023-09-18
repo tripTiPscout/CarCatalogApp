@@ -3,7 +3,7 @@
     "model": {
         "name": "Diablo",
 	"brand": {
-        "name": "Lamborghini"
+            "name": "Lamborghini"
     	}
     },
     "price": 160000.00,
