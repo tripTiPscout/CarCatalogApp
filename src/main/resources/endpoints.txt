@@ -1,4 +1,3 @@
-
 POST http://localhost:9090/cars/car
 
 POST http://localhost:9090/models/model
